@@ -1,0 +1,47 @@
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiperSlide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiperSlide > span {
+  display: block;
+  width: 100%;
+}
+
+.mySwiper {
+  width: 92vw;
+  height: 31vh;
+}
+
+.title {
+  width: 100vw;
+  height: 3em;
+  display: flex;
+  align-items: center;
+  margin-top: 64px;
+  justify-content: center;
+  font-size: 3em;
+  color: white;
+}
+
+.title2 {
+  width: 100vw;
+  height: 6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  color: white;
+}
+
+.swiper-pagination-bullet-active {
+  color: white;
+}
