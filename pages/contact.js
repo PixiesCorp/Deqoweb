@@ -50,10 +50,10 @@ export default function Contact () {
           </a>
         </div>
         <div className={styles.containphone}>
+          <p>+52 656-360-5991</p>
           <div>
             <AiFillPhone />
           </div>
-          <p>+52 656-360-5991</p>
         </div>
         <form ref={form} onSubmit={sendEmail} className={styles.form}>
           <label>Name</label>
