@@ -47,24 +47,24 @@ export default function NavBar() {
         <ul className={styles.navContain}>
           <li>
             <Link href="/">
-              <a>Home</a>
+              <a>Inicio</a>
             </Link>
           </li>
           <li>
             <Link href="/about">
-              <a>About</a>
+              <a>Sobre Mi</a>
             </Link>
           </li>
           <li>
             <Link href="/gallery">
-              <a>Gallery</a>
+              <a>Galeria</a>
             </Link>
           </li>
         </ul>
         <div className={styles.contactlink}>
           <div className={styles.btnContact}>
             <Link href="/contact">
-              <a>Contact</a>
+              <a>Contacto</a>
             </Link>
           </div>
         </div>
@@ -79,22 +79,22 @@ export default function NavBar() {
                 exit={{x: -350}} >
                 <li>
                   <Link href="/">
-                    <a>Home</a>
+                    <a>Inicio</a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/about">
-                    <a>About</a>
+                    <a>Sobre Mi</a>
                   </Link>
                 </li>
                 <li>
                   <Link href="/gallery">
-                    <a>Gallery</a>
+                    <a>Galeria</a>
                   </Link>
                 </li>
                 <li className={styles.itemContact}>
                   <Link href="/contact">
-                    <a>Contact</a>
+                    <a>Contacto</a>
                   </Link>
                 </li>
               </motion.ul>

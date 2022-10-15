@@ -2,6 +2,12 @@ import styles from "../styles/Contact.module.css"
 import NavBar from "../components/NavBar";
 import emailjs from '@emailjs/browser';
 import { useRef, useState } from "react";
+import { AiFillFacebook } from 'react-icons/ai'
+import { AiFillInstagram } from 'react-icons/ai'
+import { AiFillYoutube } from 'react-icons/ai'
+import { AiFillPhone } from 'react-icons/ai'
+
+
 
 
 const Result = () => {
@@ -32,6 +38,23 @@ export default function Contact () {
       <NavBar />
       <div className={styles.container}>
         <h1 className={styles.title}>Contactanos</h1>
+        <div className={styles.containredes}>
+          <a href="https://www.facebook.com/deqoimagen">
+            <AiFillFacebook size="2em"/>
+          </a>
+          <a href="https://www.instagram.com/deqoimagen">
+            <AiFillInstagram size="2em"/>
+          </a>
+          <a href="https://www.youtube.com/channel/UCTRqlA-OJirz3jRB2oVspfg">
+            <AiFillYoutube size="2em"/>
+          </a>
+        </div>
+        <div className={styles.containphone}>
+          <div>
+            <AiFillPhone />
+          </div>
+          <p>+52 656-351-5046</p>
+        </div>
         <form ref={form} onSubmit={sendEmail} className={styles.form}>
           <label>Name</label>
           <input type="text" name="fullName" className={styles.input}/>
@@ -41,6 +64,7 @@ export default function Contact () {
           <br />
           <label>Message</label>
           <textarea name="message" className={styles.input}/>
+          <br />
           <br />
           <button className={styles.submit}>ENVIAR</button>
 
