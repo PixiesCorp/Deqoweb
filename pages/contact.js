@@ -56,13 +56,13 @@ export default function Contact () {
           </div>
         </div>
         <form ref={form} onSubmit={sendEmail} className={styles.form}>
-          <label>Name</label>
+          <label>Nombre</label>
           <input type="text" name="fullName" className={styles.input}/>
           <br />
           <label>Email</label>
           <input type="email" name="email" className={styles.input}/>
           <br />
-          <label>Message</label>
+          <label>Mensaje</label>
           <textarea name="message" className={styles.input}/>
           <br />
           <br />
