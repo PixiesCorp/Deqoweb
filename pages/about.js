@@ -19,7 +19,7 @@ export default function About () {
             <div className={styles.subtitle}>
               <h2>Fotógrafo en Cd.Juárez, Chih.</h2>
             </div>
-            <div className="description">
+            <div className={styles.description}>
               <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, necessitatibus.</h2>
             </div>
           </div>

@@ -25,6 +25,10 @@
   line-height: 1.5em;
 }
 
+.description > h2{
+  line-height: 2.7em;
+}
+
 @media screen and (max-width: 800px) {
   .contain {
     flex-direction: column;

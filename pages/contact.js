@@ -6,6 +6,7 @@ import { AiFillFacebook } from 'react-icons/ai'
 import { AiFillInstagram } from 'react-icons/ai'
 import { AiFillYoutube } from 'react-icons/ai'
 import { AiFillPhone } from 'react-icons/ai'
+import Messenger from "../components/Messenger";
 
 
 
@@ -74,6 +75,7 @@ export default function Contact () {
           {result ? <Result /> : null}
         </div>
       </div>
+      <Messenger />
     </>
   )
 }
