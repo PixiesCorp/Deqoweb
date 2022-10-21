@@ -6,7 +6,7 @@
   z-index: 2;
   color: #fff;
   top: 0;
-  background-color: black;
+  background-color: #2d1b7e;
 }
 
 .logo {
@@ -124,7 +124,7 @@
     top: 4em;
     width: 50%;
     height: calc(100vh - 4em);
-    background-color: black;
+    background-color: #2d1b7e;
     z-index: 0;
   }
 

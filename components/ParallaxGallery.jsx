@@ -49,7 +49,7 @@ export default function ParallaxGallery() {
       </div>
       <div className={styles.containBoda}>
         <div className={styles.title2}>
-          <h1>Xv</h1>
+          <h1>Quinceañeras</h1>
         </div>
         <Swiper
           effect={"coverflow"}
@@ -80,7 +80,7 @@ export default function ParallaxGallery() {
       </div>
       <div className={styles.containBoda}>
         <div className={styles.title2}>
-          <h1>Lenceria</h1>
+          <h1>Embarazo</h1>
         </div>
         <Swiper
           effect={"coverflow"}
